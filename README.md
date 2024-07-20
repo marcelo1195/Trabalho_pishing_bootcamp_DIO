@@ -45,10 +45,12 @@ O codigo fonte da pagina do facebook é protegido, o que significa que le não �
 
 ![foto 9](images/foto_9.png)
 ![foto 10](images/foto_10.png)
+
 Uma solução é criarmos nosso proprio template, para isso podemos usar a extensão SingleFile (firefox)
 
 ![foto 11](images/foto_11.png)
 ![foto 12](images/foto_12.png)
+
 Após isso precisamos modificar algumas partes do código, para que fiquem compativeis com o SET
 
 ![foto 13](images/foto_13.png)
@@ -68,13 +70,15 @@ Agora devemos selecionar a opção 3 "Custom import" (também precisamos salvar 
 ![foto 14](images/foto_14.png)
 ![foto 15](images/foto_15.png)
 ![foto 16](images/foto_16.png)
-![foto 17](images/foto_17.png)
 ![foto 18](images/foto_18.png)
 ![foto 19](images/foto_19.png)
+![foto 20](images/foto_20.png)
 
 Foram efetuados testes tanto na rede local, quanto em rede externa. 
 Vale resautar que a eficacia de pishings e engenharia social estão ligadas ao tanto de informações disponiveis, então também podemos assosiar a OSINT
 
 Fontes:
- www.kaspersky.com.br/resource-center/definitions/spear-phishing
+
+www.kaspersky.com.br/resource-center/definitions/spear-phishing
+
 www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks
