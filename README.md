@@ -33,27 +33,35 @@ Para testes em escala, vale ressaltar que existem ferramentas mais apropriadas c
 9. Fornecer a URL do site a ser clonado
 
 ![Acesso ao Kali Linux](images/foto_1.png)
+
 *Figura 1: Acesso ao Kali Linux*
 
 ![Iniciando o SET](images/foto_2.png)
+
 *Figura 2: Iniciando o Social-Engineer Toolkit*
 
 ![Selecionando o tipo de ataque](images/foto_3.png)
+
 *Figura 3: Selecionando o tipo de ataque*
 
 ![Escolhendo o vetor de ataque](images/foto_4.png)
+
 *Figura 4: Escolhendo o vetor de ataque*
 
 ![Selecionando o método de coleta de credenciais](images/foto_5.png)
+
 *Figura 5: Selecionando o método de coleta de credenciais*
 
 ![Optando pelo clonador de site](images/foto_6.png)
+
 *Figura 6: Optando pelo clonador de site*
 
 ![Inserindo o IP local](images/foto_7.png)
+
 *Figura 7: Inserindo o IP local*
 
 ![Fornecendo a URL do site a ser clonado](images/foto_8.png)
+
 *Figura 8: Fornecendo a URL do site a ser clonado*
 
 ## Troubleshooting
@@ -61,22 +69,27 @@ Para testes em escala, vale ressaltar que existem ferramentas mais apropriadas c
 O código fonte da página do Facebook é protegido, o que significa que ele não é montado como um único arquivo HTML, mas sim com vários scripts. Assim, nossa ferramenta não consegue clonar o código fonte da página de login do Facebook.
 
 ![Erro ao clonar o Facebook](images/foto_9.png)
+
 *Figura 9: Erro ao tentar clonar a página do Facebook*
 
 ![Código fonte protegido](images/foto_10.png)
+
 *Figura 10: Código fonte protegido do Facebook*
 
 Uma solução é criarmos nosso próprio template. Para isso, podemos usar a extensão SingleFile (Firefox).
 
 ![Extensão SingleFile](images/foto_11.png)
+
 *Figura 11: Extensão SingleFile no Firefox*
 
 ![Salvando a página com SingleFile](images/foto_12.png)
+
 *Figura 12: Salvando a página com SingleFile*
 
 Após isso, precisamos modificar algumas partes do código para que fiquem compatíveis com o SET.
 
 ![Modificações no código](images/foto_13.png)
+
 *Figura 13: Modificações necessárias no código*
 
 **Código original:**
@@ -92,21 +105,27 @@ Após isso, precisamos modificar algumas partes do código para que fiquem compa
 Agora devemos selecionar a opção 3 "Custom import" (também precisamos salvar o template como "index.html" dentro do diretório que iremos especificar ao SET).
 
 ![Selecionando Custom Import](images/foto_14.png)
+
 *Figura 14: Selecionando a opção Custom Import*
 
 ![Especificando o diretório](images/foto_15.png)
+
 *Figura 15: Especificando o diretório do template*
 
 ![Confirmação do template](images/foto_16.png)
+
 *Figura 16: Confirmação do template carregado*
 
 ![Página clonada em execução](images/foto_18.png)
+
 *Figura 17: Página clonada em execução*
 
 ![Captura de credenciais](images/foto_19.png)
+
 *Figura 18: Captura de credenciais bem-sucedida*
 
 ![Visualização das credenciais capturadas](images/foto_20.png)
+
 *Figura 19: Visualização das credenciais capturadas*
 
 Foram efetuados testes tanto na rede local quanto em rede externa. 
